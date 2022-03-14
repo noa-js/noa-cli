@@ -1,0 +1,24 @@
+{
+  "name": "noa-cli",
+  "version": "1.0.0",
+  "description": "noa's CLI",
+  "main": "index.js",
+  "repository": "https://github.com/noa-js/noa-cli.git",
+  "author": "Choi-Jungwoo",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "noa-cli": "./bin/noa-cli.js"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "noa",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0"
+  }
+}
